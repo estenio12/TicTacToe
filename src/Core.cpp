@@ -276,13 +276,9 @@ void Core::AIBrain(){
 				
 					this->buttonID = rand() % 9;
 
-					for(int i = 0; i < 9; i++){
-				
-						if( table[ buttonID ] == 'E' ){
-							this->EventHandle( buttonID );
-							this->chooseButton = false;
-							break;
-						}
+					if( table[ buttonID ] == 'E' ){
+					    this->EventHandle( buttonID );
+					    this->chooseButton = false;
 					}
 				}
 
