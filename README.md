@@ -1,5 +1,5 @@
 # TicTacToe
-<b>Old industry game.</b>
+<b>Old game of industry.</b> </br>
 I did this project to practice my C++ skills and knowledge in game development.
 
 # Dependency
